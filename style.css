@@ -87,6 +87,7 @@ p {
     font-style: italic;
     font-family: fantasy;
     transition: .3s;
+    padding: 0 20px;
 }
 #skalexid:hover {
     color: #0D1EC6;
