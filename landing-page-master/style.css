@@ -1,1 +1,81 @@
-/* Write some CSS below */
+body {
+    background-color: rgb(250, 250, 250);
+    color: #404042;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3 {
+    font-family: fantasy
+}
+p, a {
+    font-family: sans-serif;
+}
+img {
+    height: 150px;
+    width: 100%;
+}
+.btn-blue {
+    background-color: lightskyblue;
+    padding: 16px 24px;
+    color: orangered;
+    border-radius: 15px;
+}
+.banner {
+    text-align: center;
+    color: white;
+    background-image: url(./images/background.jpg);
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1 {
+    font-size: 45px;
+}
+.banner p {
+    font-size: 24px;
+}
+.title {
+    text-align: center;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+footer {
+    height: 100px;
+    background-color: rgb(59, 124, 59);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-top: 150px;
+}
+footer p {
+    text-align: right;
+    margin-top: 60px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+h2 {
+    padding: 40px 0;
+}
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.6);
+    padding: 16px;
+}
+#skalexid {
+    font-style: italic;
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 0 5px;
+    background-color: azure;
+    border-radius: 5px;
+}
