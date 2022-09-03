@@ -12,7 +12,7 @@ p {
     color: #575050;
 }
 .container {
-    width: 800px;
+    width: 100vw;
     margin: 0 auto;
 }
 .banner {
@@ -64,15 +64,21 @@ p {
     margin-bottom: 0;
   }
   footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-bottom: 0;
     background: #8a8a90;
     text-align: center;
     padding: 24px 0;
+    margin-top: 200px;
   }
   
   footer p {
     color: white;
   }
 .cards {
+  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px;
@@ -92,4 +98,12 @@ p {
 #skalexid:hover {
     color: #0D1EC6;
     font-size: 24px;
+}
+@media (max-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 320px;
+    margin: 0 auto;
+  }
 }
