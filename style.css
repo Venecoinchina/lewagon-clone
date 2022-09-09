@@ -11,21 +11,18 @@ h1, h2, h3 {
 p {
     color: #575050;
 }
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 .banner {
-    background-image: url(./images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 150px 0;
+  width: 100%;
+  height: 40vh;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 150px 0;
 }
 .banner h1 {
     color: white;
     font-size: 45px;
-    margin: 0;
 }
 .banner p {
     color: white;
@@ -45,11 +42,22 @@ p {
     background-color: #0D1EC6;
     color: white;
   }
-  .card {
-    background: white;
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.container h2 {
+  text-align: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
-  /*width: 200px;*/
   text-align: center;
   padding: 24px;
   flex-grow: 1;
@@ -72,12 +80,7 @@ p {
   footer p {
     color: white;
   }
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 16px;
-    margin-bottom: 24px;
-  }
+
 
 
 #skalexid {
