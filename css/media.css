@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+    .banner h1 {
+        font-size: 3rem;
+    }
+    .banner p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 10px;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    footer {
+        font-size: ;
+    }
+}
